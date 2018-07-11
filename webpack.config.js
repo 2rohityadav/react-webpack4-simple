@@ -4,8 +4,8 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.join(__dirname, "/dist"),
-    filename: "bundle.js" // filename value is the name of the minified HTML that will be generated in the dist folder.
+    path: path.join(__dirname, "/dist")
+    // filename: "bundle.js" // filename value is the name of the minified HTML that will be generated in the dist folder.
   },
   module: {
     rules: [
